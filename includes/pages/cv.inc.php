@@ -1,3 +1,5 @@
+<h1>CV</h1>
+
 <!DOCTYPE html>
 <html lang=fr dir="ltr">
   <head>
@@ -10,10 +12,10 @@
     <div id="wrap3">
       <nav>
         <ul>
-          <li><a href="./../../index.html">Accueil</a></li>
-          <li><a href="./contact.html">Contact</a></li>
-          <li><a href="./cv.html">CV</a></li>
-          <li><a href="./galerie.html">Galerie</a></li>
+          <li><a href="./accueil.inc.php">Accueil</a></li>
+          <li><a href="./contact.inc.php">Contact</a></li>
+          <li><a href="./cv.inc.php">CV</a></li>
+          <li><a href="./galerie.inc.php">Galerie</a></li>
         </ul>
       </nav>
     </div>
