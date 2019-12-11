@@ -23,7 +23,9 @@ form div label {
   padding: 0 10px 0 0;
   text-align: right;
 }
+form fieldset {
 
+}
 form div input [type="submit"] {
   background-color: red;
   color: lightblue;

@@ -31,7 +31,13 @@ if (isset($_POST['formcontact'])) {
 }
   if (count($erreur) > 0) {
     $message = '<ul>';
-    $message .= '</ul>';
+
+    for ($i=0; $i < count($erreur) ; $i++) {
+      $message .= '<li>';
+      $message .= $erreur[$i];
+      $message .= '</li>';
+    }
+    $message.='</ul>'; 
   }
   else {
     echo "Insertion en BDD";
