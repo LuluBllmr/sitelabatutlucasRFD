@@ -12,7 +12,7 @@
 
 <h1>Pour nous contacter</h1>
 <?php
-if (isset($_POST['formulaire'])) {
+if (isset($_POST['formcontact'])) {
   $nom = checkInput($_POST['nom']);
   $prenom = checkInput($_POST['prenom']);
   $email = checkInput($_POST['email']);
@@ -36,7 +36,7 @@ if (isset($_POST['formulaire'])) {
     }
     $message .= '</ul>';
     echo $message;
-    require 'formulaire.php';
+    require './includes/formcontact.php';
   }
   else {
     echo "Insertion en BDD";
@@ -44,7 +44,7 @@ if (isset($_POST['formulaire'])) {
 }
 else {
   $nom = $prenom = $email = $msg = "";
-  require 'formulaire.php';
+  require './includes/formcontact.php';
 }
       $sqlVerif = "SELECT COUNT(*) FROM clients
       WHERE mail='" . $email ."'";
