@@ -1,6 +1,6 @@
-<form action="#" method="post">
+<form action="formu" method="post">
   <fieldset>
-    <legend>Coucou</legend>
+    <legend>Veuillez remplir les champs de renseignements:</legend>
   <div>
     <label for="nom">Nom :</label>
     <input type="text" name="nom" id="nom"/>

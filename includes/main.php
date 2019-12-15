@@ -13,6 +13,7 @@
 $liste = glob("./includes/pages/*.inc.php");
 $page ="./includes/pages/" . $page . ".inc.php";
 
+
 if (in_array($page, $liste)) {
   require $page;
 }

@@ -4,13 +4,17 @@
     <meta charset="utf-8">
     <title><h1>Contact</h1></title>
     <link rel="stylesheet" href="C:\wamp64\www\rfd\assets\css\reset.css">
+    <link href="./assets/css/stylecv.css" rel="stylesheet" />
   </head>
+  <header>
+    <h2>Contactez nous !</h2>
+  </header>
   <body>
 
   </body>
 </html>
 
-<h1>Pour nous contacter</h1>
+
 <?php
 if (isset($_POST['formcontact'])) {
   $nom = checkInput($_POST['nom']);

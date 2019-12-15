@@ -1,4 +1,6 @@
 @import url("reset.css");
+
+
 body {
   background-color: #FFF;
   color:#000;
@@ -10,10 +12,12 @@ form {
   background-color: darksalmon;
   width: 600px;
   padding: 20px;
+
 }
 
 form div {
   padding: 10px 0;
+
 }
 
 form div label {
@@ -32,6 +36,8 @@ form div input[type="submit"] {
 
 form fieldset {
   outline: 2px solid red;
+
+
 }
 
 form textarea {
