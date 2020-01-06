@@ -3,11 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>Accueil</title>
-    <link href="./assets/css/stylecv.css" rel="stylesheet" />
+    <link href="./assets/css/style.css" rel="stylesheet" />
   </head>
-
   <header>
-    <h2>Accueil</h2>
+    <h1>Accueil</h1>
   </header>
 
   <body>

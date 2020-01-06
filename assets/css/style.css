@@ -1,15 +1,37 @@
 @import url("reset.css");
 
+header {
+    height: 10px;
+    background-color: #1D9FB0;
+    padding: 55px;
+}
 
+header h1 {
+  margin: 10px 0 20px;
+  text-align: center;
+  font-family: monospace;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+header h2 {
+  padding: 30px;
+  text-align: center;
+  font-family: monospace;
+  font-weight: bold;
+}
+
+  }
 body {
   background-color: #FFF;
   color:#000;
   font-size: 14px;
-  font-family: Verdana, Arial, sans-serif;
+  font-family: monospace;
 }
 
 form {
-  background-color: darksalmon;
+  background-color: lightblue;
   width: 600px;
   padding: 20px;
 
@@ -24,28 +46,41 @@ form div label {
   float: left;
   width: 240px;
   padding: 0 10px 0 0;
-  text-align: right;
+  text-align: center;
+  padding-left: 30px;
+  font-family: monospace;
+  font-weight: bold;
 }
 
 form div input[type="submit"] {
-  background-color: red;
-  color: yellow;
+  background-color: royalblue;
+  color: black;
+  font-family: monospace;
+  font-weight: bold;
   font-size: 1.5em;
   margin: 0 0 0 250px;
+  text-align: center;
+
+
 }
 
 form fieldset {
-  outline: 2px solid red;
+  outline: 2px solid royalblue;
 
 
 }
 
 form textarea {
-  font-family: Verdana, Arial, sans-serif;
+  font-family: monospace;
+  font-weight: bold;
+
 }
 
 p {
   color: black;
+  font-family: monospace;
+  font-weight: bold;
+
 }
 body {
   background-color: #fff;
@@ -56,15 +91,21 @@ nav{
   width: auto;
   text-align: center;
 }
+
 nav ul li{
-  display: inline-block; / alignement de "bande" fonctionne avec "li" /
+  display: inline-block;
   width: 10%;
   text-align: center;
+  padding-left: 30px;
+  font-family: monospace;
+  font-weight: bold;
+
+
 }
 nav ul li a {
   display: block;
-  height: 40px;
-  line-height: 40px;
+  height: 15px;
+  line-height: 15px;
 }
 
 nav ul li a:link {
