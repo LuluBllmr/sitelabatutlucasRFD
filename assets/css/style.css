@@ -1,7 +1,9 @@
+@import url("font.css");
 @import url("reset.css");
 
+
 header {
-    height: 10px;
+    height: 150px;
     background-color: #1D9FB0;
     padding: 55px;
 }
@@ -28,6 +30,18 @@ body {
   color:#000;
   font-size: 14px;
   font-family: monospace;
+  margin-top: 200px;
+  text-align: center;
+  
+}
+body .ment {
+  margin-left: 250px;
+  margin-right: 250px;
+}
+
+body .ment h1{
+  font-size: 1.2em;
+  color: pink;
 }
 
 form {
@@ -82,20 +96,22 @@ p {
   font-weight: bold;
 
 }
-body {
-  background-color: #fff;
-}
 
+#nav{
+  color: black;
+  font: arial, verdana, sans-serif;
+  font-size: 20px;
+}
 nav{
 
   width: auto;
   text-align: center;
+  margin-top: 100px;
 }
 
 nav ul li{
   display: inline-block;
-  width: 10%;
-  text-align: center;
+  width: auto;
   padding-left: 30px;
   font-family: monospace;
   font-weight: bold;

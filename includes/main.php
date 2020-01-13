@@ -1,25 +1,14 @@
 <main>
   <?php
-
+  $path = './includes/';
   $page = isset($_GET['page']) ? $_GET['page'] : 'accueil';
-
-  if (isset($_GET['page'])) {
-    $page = $_GET['page'];
-}
-    else {
-    $page = 'accueil';
+  $page = $path . $page . '.inc.php';
+  $tableauFichiers = glob($path . '*.inc.php');
+  if (in_array($page, $tableauFichiers)) {
+    require $page;
   }
-
-$liste = glob("./includes/pages/*.inc.php");
-$page ="./includes/pages/" . $page . ".inc.php";
-
-
-if (in_array($page, $liste)) {
-  require $page;
-}
-else {
-  require './includes/pages'. $page . '.php';
-}
-
+  else {
+    require $path . 'accueil.inc.php';
+  }
   ?>
 </main>

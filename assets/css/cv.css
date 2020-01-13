@@ -1,0 +1,84 @@
+@import url("reset.css");
+
+
+hr { /*Ligne horizontale*/
+  display: inline-block;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 600px;
+  height: 2px;
+  background-color: black;
+  border: none;
+}
+
+body .cv1 h1 {
+  margin-top: 40px;
+  font-size: 2.5em;
+  margin-left: 150px;
+}
+
+body .cv1 h3 {
+  font-size: 1.3em;
+  margin-left: 150px;
+  color: red;
+}
+
+body .cv1 h5 {
+  font-size: 1.5em;
+  padding-top: 10px;
+  padding-left: 140px;
+}
+
+body .cv1 {
+  width:600px;height:550px;border:2px solid #000;
+  display: inline-block;
+  background-color: #D2E111;
+  background-image: url(https://image.noelshack.com/fichiers/2020/02/2/1578404574-fondcv.jpg);
+  position: relative;
+  text-align: center;
+
+}
+
+body .cv1 p {
+  margin-left: 155px;
+
+}
+
+body .cv1 #rond {
+  position:absolute;
+  width: 110px;
+  height: 110px;
+  border-radius: 55px;
+  background-image: url(https://image.noelshack.com/fichiers/2020/03/1/1578929793-sans-titre-2.png);
+  top: 6px;
+  left: 19px;
+}
+
+body .cv2 {
+  width:150px;height:550px;border:2px solid #000;
+  position: absolute;
+  display: inline-block;
+  bottom: -2px;
+  left: -2px;
+}
+
+body .cv2 h1 {
+  margin-top: 140px;
+  margin-left: auto;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+body .cv2 h3 {
+  color:black;
+}
+
+body .cv2 p {
+  margin-left: auto;
+  text-align: center;
+}
+
+
+#expert p {
+
+}
