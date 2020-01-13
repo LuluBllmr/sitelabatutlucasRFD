@@ -4,5 +4,5 @@ I take care of website creation via WordPress or other. Amateur of astronomy and
     <div id="rond"></div>
     <div id="verticale"></div>
     <div class="cv2"><h1>E X P E R T I S E</h1><p><br>Photoshop<br>HTML/CSS/Python<br>WordPress<br><br>Téléphone: 06.10.71.31.99<h2><br><br>R E F E R E N C E S<br></h2><br>Professor,<br> Frédéric NOEL - Codeur Dev<br><h4><br><br>I N T E R E S T</h4><br>Technologie, Histoire, Jeux Vidéo</p>
-      <br><a href="index.php?page=cv" title="cvFrançais">>CV Français<</a> <br><a href="img/cveng.png"
-      download="Cv LABATUT Lucas Anglais">Télécharger le CV en Anglais</a>
+      <br><a href="index.php?page=cv" title="cvFrançais">>CV Français<</a> <br><a href="./assets/img/cvlulufr.pdf"
+      download="cvlulufr.pdf">Télécharger le CV en Français</a>
